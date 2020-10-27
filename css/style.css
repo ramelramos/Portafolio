@@ -163,10 +163,10 @@ body {
   transform: translateY(23px);
 }
 #services .btn-primary {
-  box-shadow: none;
+  /* box-shadow: none; */
   padding: 8px 25px;
   border: none; 
-  border-radius: 0px;
+  /* border-radius: 0px; */
   background: linear-gradient(to right, #2ABED4, #07CDD4,#16E8D4);
   transition: transform 1.2s;
   margin: 0 5px;
@@ -293,4 +293,16 @@ body {
 .row {
  justify-content: space-around   !important;
 
+}
+@media screen and (max-width: 800px) {
+  .imagen-cell {
+    width: 200px;
+     margin-top: 2rem;
+    }
+}
+@media screen and (max-width: 1000px) {
+  .imagen-cell {
+    width: 200px;
+     margin-top: 2rem;
+    }
 }
